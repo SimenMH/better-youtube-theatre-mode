@@ -2,3 +2,7 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy {
   height: 100vh !important;
   max-height: calc(100vh - 56px) !important;
 }
+
+ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+  max-height: 100vh !important;
+}
