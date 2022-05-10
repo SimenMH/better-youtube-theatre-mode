@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Better YouTube Theatre Mode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Improves YouTube's theatre mode by making use of all of the available height",
   "content_scripts": [
     {
-      "matches": ["https://*.youtube.com/watch?*"],
+      "matches": ["https://*.youtube.com/*"],
       "css": ["byttm.css"],
       "run_at": "document_end"
     }
